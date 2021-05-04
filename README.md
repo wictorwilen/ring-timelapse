@@ -3,8 +3,8 @@
 
 A Docker container that periodically takes snapshots from your [Ring](https://www.ring.com) cameras and then creates timelapse videos of the snapshots.
 
-![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/wictorwilen/ring-timelapse/latest)
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/wictorwilen/ring-timelapse/latest)](https://hub.docker.com/repository/docker/wictorwilen/ring-timelapse)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/wictorwilen/ring-timelapse/blob/main/LICENSE.md)
 
 ## Features
 
