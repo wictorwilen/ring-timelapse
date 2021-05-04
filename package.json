@@ -12,6 +12,21 @@
     "timelapse": "node dist/timelapse"
   },
   "author": "Wictor Wilén",
+  "maintainers": [
+    {
+      "name": "Wictor Wilén",
+      "email": "wictor@wictorwilen.se",
+      "url": "http://www.wictorwilen.se"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wictorwilen/ring-timelapse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wictorwilen/ring-timelapse/issues"
+  },
+  "homepage": "https://github.com/wictorwilen/ring-timelapse",
   "license": "MIT",
   "devDependencies": {
     "@types/fluent-ffmpeg": "^2.1.17",
@@ -24,5 +39,9 @@
     "fluent-ffmpeg": "^2.1.2",
     "lodash": "^4.17.21",
     "ring-client-api": "^9.17.0"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/wictorwilen/"
   }
 }
