@@ -1,4 +1,4 @@
-FROM node:14.16 AS BUILD_IMAGE
+FROM node:20.10 AS BUILD_IMAGE
 
 # install node-prune
 RUN curl -sfL https://install.goreleaser.com/github.com/tj/node-prune.sh | bash -s -- -b /usr/local/bin
@@ -19,7 +19,7 @@ RUN npm prune --production
 # run node prune
 RUN /usr/local/bin/node-prune
 
-FROM node:14.16-alpine
+FROM node:20.10-alpine
 
 # add ffmpeg
 RUN apk add  --no-cache ffmpeg
