@@ -40,11 +40,11 @@ mkdir timelapse
 Start the container by running:
 
 ``` bash
-docker run 
-  -d 
-  -e TOKEN="<insert token here>" 
-  -v "/media/timelapse:/app/dist/target" 
-  --restart unless-stopped 
+docker run \
+  -d \
+  -e TOKEN="<insert token here>" \
+  -v "/media/timelapse:/app/dist/target" \
+  --restart unless-stopped \
   wictorwilen/ring-timelapse
 ```
 
