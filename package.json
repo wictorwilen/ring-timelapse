@@ -1,6 +1,6 @@
 {
   "name": "ring-timelapse-docker",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Ring Timelapse creator as a Docker container",
   "scripts": {
     "build": "tsc",
